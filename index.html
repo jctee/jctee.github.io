@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/myscript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron">
+            <a name="about"></a>
+            <div class="container text-center">
+                <h1 class="name">
+                    <span style="color:	#222222">JOHN </span>
+                    <span style="color: #3D4963">TEE </span>
+                </h1>
+                <p class="subheader" >VANCOUVER, BC</p>
+                <p class="subheader" >JOHNCEDRICKTEE@GMAIL.COM</p>
+                <a href="https://www.linkedin.com/in/john-tee/">
+                    <i class="fa fa-linkedin-square" style="font-size:36px;"></i>
+                </a>
+                <a href="https://github.com/jctee">
+                    <i class="fa fa-github-square" style="font-size:36px; margin-left:1%;"></i>
+                </a>
+                <div class="col-lg-12">
+                    <img onload="loadMyImage()" id="myImage" border="0" alt="picture" class="image-responsive" src="images/profilepic.png">
+                </div>
+                <div class="col-lg-12">
+                    <p style="margin-top:2%;">Some text that represents "Me"...</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container text-center">
+            <a name="skills"></a>
+            <p class="subheader">SKILLS</p><br>
+            <div class="row">
+
+                <p class="subheader2">OBJECT ORIENTED PROGRAMMING</p><br>
+
+                <div class="col-xs-3">
+                    <img src="images/c.png" class="img-responsive" alt="Image">
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/csharp.png" class="img-responsive"  alt="Image">
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/C++.png" class="img-responsive" alt="Image">
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/java2.jpg" class="img-responsive"  alt="Image">
+                </div>
+            </div>
+            <div class="row">
+                <p class="subheader2">WEB DEVELOPMENT</p><br>
+
+                <div class="col-xs-6 col-md-3">
+                    <p>C++</p>
+                    <img src="images/C++.png" class="img-responsive" alt="Image">
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <p>Some text..</p>
+                    <img src="images/java.png" class="img-responsive"  alt="Image">
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <p>C++</p>
+                    <img src="images/C++.png" class="img-responsive" alt="Image">
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <p>Some text..</p>
+                    <img src="images/java.png" class="img-responsive"  alt="Image">
+                </div>
+            </div>
+        </div><br>
+
+        <div class="odd">
+            <div class="container bg-3 text-center">
+                <a name="gallery"></a>
+                <h3>Some of my Work</h3><br>
+                <div class="row">
+
+                    <div class="col-sm-3">
+                        <p>Some text..</p>
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Some text..</p>
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Some text..</p>
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Some text..</p>
+                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                </div>
+            </div><br>
+        </div>
+
+        <div class="container-fluid bg-3 text-center">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>Some text..</p>
+                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-3">
+                    <p>Some text..</p>
+                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-3">
+                    <p>Some text..</p>
+                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-3">
+                    <p>Some text..</p>
+                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+            </div>
+        </div><br><br>
+
+        <footer class="container-fluid text-center">
+            <p>Footer Text</p>
+        </footer>
+
+    </body>
+    </html>
