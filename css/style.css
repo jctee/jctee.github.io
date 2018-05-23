@@ -5,6 +5,7 @@
   border-radius: 0;
 }
 
+
 /* Add a gray background color and some padding to the footer */
 footer
 {
@@ -12,13 +13,28 @@ footer
   padding: 25px;
 }
 
-img
+.img-skills
 {
     width:50%;
     margin:auto;
-    object-fit:contain;
 }
 
+.img-projects
+{
+    width:100%;
+    margin:auto;
+}
+
+#myImage
+{
+    border-radius:50%;
+    width:100%;
+}
+
+.jumbotron
+{
+    background-color:white;
+}
 
 .name
 {
@@ -28,14 +44,45 @@ img
 .subheader
 {
     font-family: 'Asap', sans-serif;
-    font-size:6em;
+    font-size:5em;
 }
 
-.subheader2
+.subheader-2
 {
     font-family: 'Asap', sans-serif;
     font-size:2em;
 }
+.subheader-3
+{
+    font-family: 'Asap', sans-serif;
+    font-size:1.5em;
+}
+
+@media screen and (max-width: 1200px)
+{
+  .subheader
+  {
+      font-family: 'Asap', sans-serif;
+      font-size:3em;
+  }
+  .subheader-2
+  {
+      font-family: 'Asap', sans-serif;
+      font-size:1.5em;
+  }
+  .subheader-3
+  {
+      font-family: 'Asap', sans-serif;
+      font-size:1.25em;
+  }
+
+  #myImage
+  {
+      width:50%;
+  }
+}
+
+
 
 .row
 {
