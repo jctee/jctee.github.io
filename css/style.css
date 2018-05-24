@@ -23,12 +23,14 @@ footer
 {
     width:100%;
     margin:auto;
+    border:2px solid;
 }
 
 #myImage
 {
     border-radius:50%;
     width:100%;
+    border:2px solid;
 }
 
 .jumbotron
@@ -81,8 +83,6 @@ footer
       width:50%;
   }
 }
-
-
 
 .row
 {
