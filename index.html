@@ -51,12 +51,24 @@
                 </a>
                 <br/>
                 <br/>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <img onload="loadMyImage()" id="myImage" border="0" alt="picture" class="image-responsive" src="images/profilepic.png">
 
                 </div>
-                <div class="col-lg-6">
-                    <p style="margin-top:2%;">Some text that represents "Me"...</p>
+                <div class="col-lg-7">
+                    <p style="margin-top:2%;">
+                        Hey there! Welcome to my website.
+                        <br/>
+                        My name is John Cedrick Tee but some people call me JC for short.
+                        I am a recent graduate from BCIT's Computer Systems Technology program, specializing in the Data Communications option.
+                        <br/><br/>
+                        The 2 years I spent at BCIT has been one of the greatest learning experiences I have ever had. Starting from the fundamentals of OOP, to database systems, all the way to the TCP/IP suite, I have gained many skills that I will use to make myself a better software developer.
+                        <br/><br/>
+                        I am a driven individual who is eager to learn new things everyday. I am a team player who can work in groups as well as individually. Lastly, I am a great problem solver who is very detail oriented.
+                        <br/><br/>
+                        Come check out some of my projects below and thanks for visiting.
+
+                    </p>
                 </div>
             </div>
         </div>
@@ -125,13 +137,17 @@
                 <!-- 1st project -->
                 <div class="row col-lg-12">
                     <div class="col-sm-4 col-xs-12 col-sm-push-8">
-                        <p class="subheader-2">TUMBLEWEED TUSSLERS</p>
+                        <a href="https://github.com/bcitdatacomm/game">
+                            <p class="subheader-2">TUMBLEWEED TUSSLERS</p>
+                        </a>
                         <p class="subheader-3">Unity/C#</p>
                         <p>
                             Top-down battle royale multiplayer game made in C# using Unity. Developed as a team of 23 in the Data Communications option of the Computer Systems Technology program at BCIT.
                             <br/><br/>
                             I was responsible for getting the player and shooting mechanics to work. I implemented player movement and rotation by combining raycasts with 3D Vector manipulation.
                             To implement gun shooting/reloading, I used basic algorithms to keep track of gun and bullet states and then used vector manipulation for travelling bullets.
+                            <br/><br/>
+                            This program was built to apply the different concepts learned in the Data Communications option. This project also gave us the experience of working as a team of 23 developers.
                         </p>
                     </div>
                     <div class="col-sm-8 col-xs-12 col-sm-pull-4">
@@ -141,54 +157,66 @@
 
                 <!-- 2nd project -->
                 <div class="row col-lg-12">
-                    <div class="col-sm-4 col-xs-12">
-                        <p class="subheader-2">Chat Messenger</p>
+                    <div class="col-sm-7 col-xs-12">
+                        <a href="https://github.com/jctee/LinuxChat">
+                            <p class="subheader-2">Chat Messenger</p>
+                        </a>
                         <p class="subheader-3">Server: C <br/> Client: Qt/C++</p>
                         <p>
-                            The Chat Messenger program was implemented using TCP connections between the clients and the server.
+                            The Chat Messenger cross-platform program was implemented using TCP connections between the clients and the server.
                             The server was implemented using the select() call by relaying received information to all the connected clients.
                             <br/><br/>
                             The client was implemented with a GUI using a Qt implementation. The client is required to enter the server's IP, a port number, and a username.
                             From there, the client will connect to the server and be able to chat with other connected clients.
                         </p>
                     </div>
-                    <div class="col-sm-8 col-xs-12">
+                    <div class="col-sm-5 col-xs-12">
                         <img src="images/chat.png" class="img-responsive img-projects" alt="Image">
                     </div>
                 </div>
 
                 <!-- 3rd project -->
                 <div class="row col-lg-12">
-                    <div class="col-sm-4 col-xs-12 col-sm-push-8">
-                        <p class="subheader-2">File Transfer</p>
+                    <div class="col-sm-5 col-xs-12 col-sm-push-7">
+                        <a href="https://github.com/jctee/TCP-UDP-FileTransfer">
+                            <p class="subheader-2">File Transfer</p>
+                        </a>
                         <p class="subheader-3">Qt/C++</p>
                         <p>
-                            Top-down battle royale multiplayer game made in C# using Unity. Developed as a team of 23 in the Data Communications option of the Computer Systems Technology program at BCIT.
+                            The file transfer application is a cross-platform program that can use TCP or UDP to send and receive files using sockets.
                             <br/><br/>
-                            I was responsible for getting the player and shooting mechanics to work. I implemented player movement and rotation by combining raycasts with 3D Vector manipulation.
-                            To implement gun shooting/reloading, I used basic algorithms to keep track of gun and bullet states and then used vector manipulation for travelling bullets.
+                            The receiver has to go into receiver mode first by choosing TCP or UDP, then the sender must choose the same protocol, enter in the receiver's IP Address, port number, and select the text file which they wish to send.
+                            The TCP and UDP connections are automatically closed upon completion of the file transfer.
+                            <br/><br/>
+                            This program was built in order to apply the theory learned between the diffences of TCP and UDP.
+
                         </p>
                     </div>
-                    <div class="col-sm-8 col-xs-12 col-sm-pull-4">
-                        <img src="images/unitygame.png" class="img-responsive img-projects" alt="Image">
+                    <div class="col-sm-7 col-xs-12 col-sm-pull-5">
+                        <img src="images/filetransfer.png" class="img-responsive img-projects" alt="Image">
                     </div>
                 </div>
 
                 <!-- 4th project -->
                 <div class="row col-lg-12">
-                    <div class="col-sm-4 col-xs-12">
-                        <p class="subheader-2">Chat Messenger</p>
-                        <p class="subheader-3">Server: C <br/> Client: Qt/C++</p>
+                    <div class="col-sm-6 col-xs-12">
+                        <a href="https://github.com/jctee/Chess">
+                            <p class="subheader-2">Chess</p>
+                        </a>
+                        <p class="subheader-3">Java</p>
                         <p>
-                            The Chat Messenger program was implemented using TCP connections between the clients and the server.
-                            The server was implemented using the select() call by relaying received information to all the connected clients.
+                            This Chess program was the first "big" program I ever developed.
                             <br/><br/>
-                            The client was implemented with a GUI using a Qt implementation. The client is required to enter the server's IP, a port number, and a username.
-                            From there, the client will connect to the server and be able to chat with other connected clients.
+                            To implement Chess, we had to create a board, a board would contain (8x8) squares, and each square may or may not contain a chess piece.
+                            After populating the board with the initial chess pieces, the game would keep track of turns, and also validate moves using basic algorithms.
+                            For example, a bishop can only move diagonally, a horse can move in L shapes, etc. The program can also save and load the state of the game using serialization.
+
+                            <br/><br/>
+                            This program was built in order to reinforce our knowledge of OOP and its basic principles such as inheritance. It allowed us to experience the power of OOP and being able to have objects with different states to simulate a real game.
                         </p>
                     </div>
-                    <div class="col-sm-8 col-xs-12">
-                        <img src="images/chat.png" class="img-responsive img-projects" alt="Image">
+                    <div class="col-sm-6 col-xs-12">
+                        <img src="images/chess.png" class="img-responsive img-projects" alt="Image">
                     </div>
                 </div>
 
@@ -217,7 +245,7 @@
 
 
 <footer class="container-fluid text-center">
-    <p>Footer Text</p>
+    <p>John Tee</p>
 </footer>
 
 </body>
