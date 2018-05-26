@@ -11,231 +11,272 @@
     <script src="js/myscript.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <body>
+</head>
+<body>
 
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Portfolio</a>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <a name="about"></a>
+        <div class="container text-center">
+            <h1 class="name">
+                <span style="color:	#222222">JOHN </span>
+                <span style="color: #3D4963">TEE </span>
+            </h1>
+            <span class="subheader-3" >VANCOUVER, BC</span><br/>
+            <span class="subheader-3" >JOHNCEDRICKTEE@GMAIL.COM</span><br/>
+            <a href="https://www.linkedin.com/in/john-tee/">
+                <i class="fa fa-linkedin-square" style="font-size:36px;"></i>
+            </a>
+            <a href="https://github.com/jctee">
+                <i class="fa fa-github-square" style="font-size:36px; margin-left:1%;"></i>
+            </a>
+            <br/>
+            <br/>
+            <div class="col-lg-5">
+                <img onload="loadMyImage()" id="myImage" border="0" alt="picture" class="image-responsive" src="images/profilepic.png">
+
+            </div>
+            <div class="col-lg-7 hidden-xs">
+                <p style="margin-top:2%;">
+                    Hey there! Welcome to my website.
+                    <br/>
+                    My name is John Cedrick Tee but some people call me JC for short.
+                    I am a recent graduate from BCIT's Computer Systems Technology program, specializing in the Data Communications option.
+                    <br/><br/>
+                    I am a driven individual who is eager to learn new things everyday. I am a team player who can work in groups as well as individually. Lastly, I am a great problem solver who is very detail oriented.
+                    <br/><br/>
+                    Come check out some of my projects below and thanks for visiting.
+
+                </p>
+            </div>
+
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                <p style="margin-top:2%;">
+                    Hey there! Welcome to my website.
+                    <br/>
+                    My name is John Cedrick Tee but some people call me JC for short.
+                    I am a recent graduate from BCIT's Computer Systems Technology program, specializing in the Data Communications option.
+                </p>
+                <div class="wrapper center-block">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body jumbotron-font" style="">
+                                    I am a driven individual who is eager to learn new things everyday. I am a team player who can work in groups as well as individually. Lastly, I am a great problem solver who is very detail oriented.
+                                    <br/><br/>
+                                    Come check out some of my projects below and thanks for visiting.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                    </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class = "odd">
+        <div class="container text-center">
+            <a name="skills"></a>
+            <p class="subheader">SKILLS</p><br>
+            <div class="row">
+
+                <p class="subheader-2">PROCEDURAL / OBJECT ORIENTED PROGRAMMING</p><br>
+
+                <div class="col-xs-3">
+                    <img src="images/c.png" class="img-responsive img-skills" alt="Image">
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/csharp.png" class="img-responsive img-skills" alt="Image">
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/C++.png" class="img-responsive img-skills" alt="Image">
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/java.png" class="img-responsive img-skills"  alt="Image">
                 </div>
             </div>
-        </nav>
+            <div class="row">
+                <p class="subheader-2">WEB DEVELOPMENT</p><br>
 
-        <div class="jumbotron">
-            <a name="about"></a>
-            <div class="container text-center">
-                <h1 class="name">
-                    <span style="color:	#222222">JOHN </span>
-                    <span style="color: #3D4963">TEE </span>
-                </h1>
-                <span class="subheader-3" >VANCOUVER, BC</span><br/>
-                <span class="subheader-3" >JOHNCEDRICKTEE@GMAIL.COM</span><br/>
-                <a href="https://www.linkedin.com/in/john-tee/">
-                    <i class="fa fa-linkedin-square" style="font-size:36px;"></i>
-                </a>
-                <a href="https://github.com/jctee">
-                    <i class="fa fa-github-square" style="font-size:36px; margin-left:1%;"></i>
-                </a>
-                <br/>
-                <br/>
-                <div class="col-lg-5">
-                    <img onload="loadMyImage()" id="myImage" border="0" alt="picture" class="image-responsive" src="images/profilepic.png">
-
+                <div class="col-xs-4">
+                    <img src="images/html.png" class="img-responsive img-skills" alt="Image">
                 </div>
-                <div class="col-lg-7">
-                    <p style="margin-top:2%;">
-                        Hey there! Welcome to my website.
-                        <br/>
-                        My name is John Cedrick Tee but some people call me JC for short.
-                        I am a recent graduate from BCIT's Computer Systems Technology program, specializing in the Data Communications option.
+                <div class="col-xs-4">
+                    <img src="images/css.png" class="img-responsive img-skills"  alt="Image">
+                </div>
+                <div class="col-xs-4">
+                    <img src="images/js.png" class="img-responsive img-skills" alt="Image">
+                </div>
+
+            </div>
+            <div class="row">
+                <p class="subheader-2">OTHERS</p><br>
+
+                <div class="col-xs-3">
+                    <img src="images/sql.png" class="img-responsive img-skills" alt="Image">
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/github.png" class="img-responsive img-skills"  alt="Image">
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/qt.png" class="img-responsive img-skills" alt="Image">
+                </div>
+                <div class="col-xs-3">
+                    <img src="images/android.png" class="img-responsive img-skills" alt="Image">
+                </div>
+            </div>
+        </div>
+        <br/>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <a name="projects"></a>
+            <p class="subheader">PROJECTS</p><br>
+
+            <!-- 1st project -->
+            <div class="row col-lg-12">
+                <div class="col-sm-4 col-xs-12 col-sm-push-8">
+                    <a href="https://github.com/bcitdatacomm/game">
+                        <p class="subheader-2">
+                            TUMBLEWEED TUSSLERS
+                            <i class="fa fa-github-square" style="font-size:36px;"></i>
+                        </p>
+                    </a>
+                    <p class="subheader-3">Unity/C#</p>
+                    <p>
+                        Top-down battle royale multiplayer game made in C# using Unity. Developed as a team of 23 in the Data Communications option of the Computer Systems Technology program at BCIT.
                         <br/><br/>
-                        The 2 years I spent at BCIT has been one of the greatest learning experiences I have ever had. Starting from the fundamentals of OOP, to database systems, all the way to the TCP/IP suite, I have gained many skills that I will use to make myself a better software developer.
+                        I was responsible for getting the player and shooting mechanics to work. I implemented player movement and rotation by combining raycasts with 3D Vector manipulation.
+                        To implement gun shooting/reloading, I used basic algorithms to keep track of gun and bullet states and then used vector manipulation for travelling bullets.
                         <br/><br/>
-                        I am a driven individual who is eager to learn new things everyday. I am a team player who can work in groups as well as individually. Lastly, I am a great problem solver who is very detail oriented.
+                        This program was built to apply the different concepts learned in the Data Communications option. This project also gave us the experience of working as a team of 23 developers.
+                    </p>
+                </div>
+                <div class="col-sm-8 col-xs-12 col-sm-pull-4">
+                    <img src="images/unitygame.png" class="img-responsive img-projects" alt="Image">
+                </div>
+            </div>
+
+            <!-- 2nd project -->
+            <div class="row col-lg-12">
+                <div class="col-sm-7 col-xs-12">
+                    <a href="https://github.com/jctee/LinuxChat">
+                        <p class="subheader-2">
+                            CHAT MESSENGER
+                            <i class="fa fa-github-square" style="font-size:36px;"></i>
+                        </p>
+                    </a>
+                    <p class="subheader-3">Server: C <br/> Client: Qt/C++</p>
+                    <p>
+                        The Chat Messenger cross-platform program was implemented using TCP connections between the clients and the server.
+                        The server was implemented using the select() call by relaying received information to all the connected clients.
                         <br/><br/>
-                        Come check out some of my projects below and thanks for visiting.
+                        The client was implemented with a GUI using a Qt implementation. The client is required to enter the server's IP, a port number, and a username.
+                        From there, the client will connect to the server and be able to chat with other connected clients.
+                    </p>
+                </div>
+                <div class="col-sm-5 col-xs-12">
+                    <img src="images/chat.png" class="img-responsive img-projects" alt="Image">
+                </div>
+            </div>
+
+            <!-- 3rd project -->
+            <div class="row col-lg-12">
+                <div class="col-sm-5 col-xs-12 col-sm-push-7">
+                    <a href="https://github.com/jctee/TCP-UDP-FileTransfer">
+                        <p class="subheader-2">
+                            FILE TRANSFER
+                            <i class="fa fa-github-square" style="font-size:36px;"></i>
+                        </p>
+                    </a>
+                    <p class="subheader-3">Qt/C++</p>
+                    <p>
+                        The file transfer application is a cross-platform program that can use TCP or UDP to send and receive files using sockets.
+                        <br/><br/>
+                        The receiver has to go into receiver mode first by choosing TCP or UDP, then the sender must choose the same protocol, enter in the receiver's IP Address, port number, and select the text file which they wish to send.
+                        The TCP and UDP connections are automatically closed upon completion of the file transfer.
+                        <br/><br/>
+                        This program was built in order to apply the theory learned between the diffences of TCP and UDP.
 
                     </p>
                 </div>
-            </div>
-        </div>
-
-
-        <div class = "odd">
-            <div class="container text-center">
-                <a name="skills"></a>
-                <p class="subheader">SKILLS</p><br>
-                <div class="row">
-
-                    <p class="subheader-2">PROCEDURAL / OBJECT ORIENTED PROGRAMMING</p><br>
-
-                    <div class="col-xs-3">
-                        <img src="images/c.png" class="img-responsive img-skills" alt="Image">
-                    </div>
-                    <div class="col-xs-3">
-                        <img src="images/csharp.png" class="img-responsive img-skills" alt="Image">
-                    </div>
-                    <div class="col-xs-3">
-                        <img src="images/C++.png" class="img-responsive img-skills" alt="Image">
-                    </div>
-                    <div class="col-xs-3">
-                        <img src="images/java.png" class="img-responsive img-skills"  alt="Image">
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="subheader-2">WEB DEVELOPMENT</p><br>
-
-                    <div class="col-xs-4">
-                        <img src="images/html.png" class="img-responsive img-skills" alt="Image">
-                    </div>
-                    <div class="col-xs-4">
-                        <img src="images/css.png" class="img-responsive img-skills"  alt="Image">
-                    </div>
-                    <div class="col-xs-4">
-                        <img src="images/js.png" class="img-responsive img-skills" alt="Image">
-                    </div>
-
-                </div>
-                <div class="row">
-                    <p class="subheader-2">OTHERS</p><br>
-
-                    <div class="col-xs-3">
-                        <img src="images/sql.png" class="img-responsive img-skills" alt="Image">
-                    </div>
-                    <div class="col-xs-3">
-                        <img src="images/github.png" class="img-responsive img-skills"  alt="Image">
-                    </div>
-                    <div class="col-xs-3">
-                        <img src="images/qt.png" class="img-responsive img-skills" alt="Image">
-                    </div>
-                    <div class="col-xs-3">
-                        <img src="images/android.png" class="img-responsive img-skills" alt="Image">
-                    </div>
+                <div class="col-sm-7 col-xs-12 col-sm-pull-5">
+                    <img src="images/filetransfer.png" class="img-responsive img-projects" alt="Image">
                 </div>
             </div>
-            <br/>
-        </div>
 
-        <div class="container-fluid bg-3 text-center">
-            <div class="row">
-                <a name="projects"></a>
-                <p class="subheader">PROJECTS</p><br>
-
-                <!-- 1st project -->
-                <div class="row col-lg-12">
-                    <div class="col-sm-4 col-xs-12 col-sm-push-8">
-                        <a href="https://github.com/bcitdatacomm/game">
-                            <p class="subheader-2">TUMBLEWEED TUSSLERS</p>
-                        </a>
-                        <p class="subheader-3">Unity/C#</p>
-                        <p>
-                            Top-down battle royale multiplayer game made in C# using Unity. Developed as a team of 23 in the Data Communications option of the Computer Systems Technology program at BCIT.
-                            <br/><br/>
-                            I was responsible for getting the player and shooting mechanics to work. I implemented player movement and rotation by combining raycasts with 3D Vector manipulation.
-                            To implement gun shooting/reloading, I used basic algorithms to keep track of gun and bullet states and then used vector manipulation for travelling bullets.
-                            <br/><br/>
-                            This program was built to apply the different concepts learned in the Data Communications option. This project also gave us the experience of working as a team of 23 developers.
+            <!-- 4th project -->
+            <div class="row col-lg-12">
+                <div class="col-sm-6 col-xs-12">
+                    <a href="https://github.com/jctee/Chess">
+                        <p class="subheader-2">
+                            CHESS
+                            <i class="fa fa-github-square" style="font-size:36px;"></i>
                         </p>
-                    </div>
-                    <div class="col-sm-8 col-xs-12 col-sm-pull-4">
-                        <img src="images/unitygame.png" class="img-responsive img-projects" alt="Image">
-                    </div>
+                    </a>
+                    <p class="subheader-3">Java</p>
+                    <p>
+                        This Chess program was the first "big" program I ever developed.
+                        <br/><br/>
+                        To implement Chess, we had to create a board, a board would contain (8x8) squares, and each square may or may not contain a chess piece.
+                        After populating the board with the initial chess pieces, the game would keep track of turns, and also validate moves using basic algorithms.
+                        For example, a bishop can only move diagonally, a horse can move in L shapes, etc. The program can also save and load the state of the game using serialization.
+
+                        <br/><br/>
+                        This program was built in order to reinforce our knowledge of OOP and its basic principles such as inheritance. It allowed us to experience the power of OOP and being able to have objects with different states to simulate a real game.
+                    </p>
                 </div>
-
-                <!-- 2nd project -->
-                <div class="row col-lg-12">
-                    <div class="col-sm-7 col-xs-12">
-                        <a href="https://github.com/jctee/LinuxChat">
-                            <p class="subheader-2">CHAT MESSENGER</p>
-                        </a>
-                        <p class="subheader-3">Server: C <br/> Client: Qt/C++</p>
-                        <p>
-                            The Chat Messenger cross-platform program was implemented using TCP connections between the clients and the server.
-                            The server was implemented using the select() call by relaying received information to all the connected clients.
-                            <br/><br/>
-                            The client was implemented with a GUI using a Qt implementation. The client is required to enter the server's IP, a port number, and a username.
-                            From there, the client will connect to the server and be able to chat with other connected clients.
-                        </p>
-                    </div>
-                    <div class="col-sm-5 col-xs-12">
-                        <img src="images/chat.png" class="img-responsive img-projects" alt="Image">
-                    </div>
+                <div class="col-sm-6 col-xs-12">
+                    <img src="images/chess.png" class="img-responsive img-projects" alt="Image">
                 </div>
-
-                <!-- 3rd project -->
-                <div class="row col-lg-12">
-                    <div class="col-sm-5 col-xs-12 col-sm-push-7">
-                        <a href="https://github.com/jctee/TCP-UDP-FileTransfer">
-                            <p class="subheader-2">FILE TRANSFER</p>
-                        </a>
-                        <p class="subheader-3">Qt/C++</p>
-                        <p>
-                            The file transfer application is a cross-platform program that can use TCP or UDP to send and receive files using sockets.
-                            <br/><br/>
-                            The receiver has to go into receiver mode first by choosing TCP or UDP, then the sender must choose the same protocol, enter in the receiver's IP Address, port number, and select the text file which they wish to send.
-                            The TCP and UDP connections are automatically closed upon completion of the file transfer.
-                            <br/><br/>
-                            This program was built in order to apply the theory learned between the diffences of TCP and UDP.
-
-                        </p>
-                    </div>
-                    <div class="col-sm-7 col-xs-12 col-sm-pull-5">
-                        <img src="images/filetransfer.png" class="img-responsive img-projects" alt="Image">
-                    </div>
-                </div>
-
-                <!-- 4th project -->
-                <div class="row col-lg-12">
-                    <div class="col-sm-6 col-xs-12">
-                        <a href="https://github.com/jctee/Chess">
-                            <p class="subheader-2">CHESS</p>
-                        </a>
-                        <p class="subheader-3">Java</p>
-                        <p>
-                            This Chess program was the first "big" program I ever developed.
-                            <br/><br/>
-                            To implement Chess, we had to create a board, a board would contain (8x8) squares, and each square may or may not contain a chess piece.
-                            After populating the board with the initial chess pieces, the game would keep track of turns, and also validate moves using basic algorithms.
-                            For example, a bishop can only move diagonally, a horse can move in L shapes, etc. The program can also save and load the state of the game using serialization.
-
-                            <br/><br/>
-                            This program was built in order to reinforce our knowledge of OOP and its basic principles such as inheritance. It allowed us to experience the power of OOP and being able to have objects with different states to simulate a real game.
-                        </p>
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                        <img src="images/chess.png" class="img-responsive img-projects" alt="Image">
-                    </div>
-                </div>
-
             </div>
+
         </div>
+    </div>
 
-        <!--
-        <div class="">
-        <div class="container-fluid bg-3 text-center">
-        <a name="gallery"></a>
-        <h3>Some of my Work</h3><br>
-        <div class="row">
+    <!--
+    <div class="">
+    <div class="container-fluid bg-3 text-center">
+    <a name="gallery"></a>
+    <h3>Some of my Work</h3><br>
+    <div class="row">
 
-        <div class="col-xs-12">
-        <object height="1000" data="images/resume.pdf" type="application/pdf" width="860">
-        <p>It appears you don't have a PDF plugin for this browser.
-        No biggie... you can <a href="images/resume.pdf">click here to
-        download the PDF file.</a>
-    </p>
+    <div class="col-xs-12">
+    <object height="1000" data="images/resume.pdf" type="application/pdf" width="860">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="images/resume.pdf">click here to
+    download the PDF file.</a>
+</p>
 </object>
 </div>
 </div>
